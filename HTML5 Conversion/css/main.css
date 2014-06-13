@@ -89,8 +89,8 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 
 /* -- TEASER -------------------------------------------------- */
 /* ------------------------------------------------------------ */
-/* For each of these rules change the class rule to that of an id. CHANGE '.teaser' to '#teaser' */
-.teaser {
+
+#teaser {
 	clear: both;
 	position: relative;
 	height: 300px;
@@ -103,8 +103,7 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 	
 }
 
-/* Since the additional class was not neccessary... CHANGE '.copy' to 'div' */
-.teaser .copy {
+#teaser div {
 	position: absolute; 
 	bottom: 25px; 
 	left: 25px;
@@ -113,10 +112,10 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 	color: #eaeaea;
 	background: #E88F3F;
 }
-.teaser .copy h1 {
+#teaser div h1 {
 	color: #ffffff;
 }
-
+*/
 
 /* -- FEATURES -------------------------------------------------- */
 /* -------------------------------------------------------------- */
@@ -148,7 +147,7 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 /* -- FOOTER -------------------------------------------------- */
 /* ---------------------------------------------------------------- */
 /* This class can CHANGE to the HTML5 tag "footer", just remove the period. */
-.footer { 
+/*.footer { 
 	clear: both;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -158,7 +157,7 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 	color: #cccccc;
 }
 
-
+*/
 /* -- CLEAR FIX -------------------------------------------------- */
 /* --------------------------------------------------------------- */
 /* The 'after' psuedo-class is used to insert content into HTML for pure presentation purposes. 
