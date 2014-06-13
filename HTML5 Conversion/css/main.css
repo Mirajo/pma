@@ -25,7 +25,7 @@ a {
 /* -------------------------------------------------------------------- */
 /* The container division was removed completely from the HTML. 
 CHANGE '.container' to 'header, footer, section' */
-.container {
+section {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -35,11 +35,11 @@ CHANGE '.container' to 'header, footer, section' */
 /* ------------------------------------------------------------ */
 /* For each of these rules the header class should be changed to target 
 the HTML5 header tag, just remove the period  */
-.header { 
+header { 
 	display: block;
 	padding: 15px 0 0 0;
 }
-.header p {
+header p {
 	float: left;
 	background: #eaeaea; 
 	padding: 5px 20px
@@ -50,20 +50,20 @@ the HTML5 header tag, just remove the period  */
 /* ---------------------------------------------------------------- */
 /* For each of these rules the navigation class should be changed to target 
 the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
-.navigation { 
+nav { 
 	float: right;
 }
-.navigation li {
+nav li {
 	display: inline-block;
 	position: relative;
 }
-.navigation li:hover { 
+nav li:hover { 
 	background: #E88F3F;
 }
-.navigation li:hover a { 
+nav li:hover a { 
 	color: #ffffff; 
 }
-.navigation ul ul {
+nav ul ul {
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -73,14 +73,14 @@ the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
 	background: #E88F3F;
 	z-index: 1;
 }
-.navigation ul ul li {
+nav ul ul li {
 	float: none;
 	white-space: nowrap;
 }
-.navigation li:hover ul {
+nav li:hover ul {
 	display: block;
 }
-.navigation a {
+nav a {
 	display: block;
 	text-decoration: none;
 	padding: 5px 20px
