@@ -1,0 +1,120 @@
+<!-- 
+
+1). Save a copy of the entire site folder as "archive" so you can compare your results. 
+2). After the assignment it should look identical except for perhaps some minor browser user agent styles. 
+3). Overall you will see how you can truly optimize your code if you think about the structure instead of adding divisions and classes all over the place. 
+
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- REPLACE the doctype to <!DOCTYPE html> -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<!-- The attribute is not needed in HTML5. REPLACE with <html> -->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+	<!-- HTML5 doesn't require as much meta content to display correctly within the browser. REPLACE the meta tag with <meta charset="UTF-8" /> -->
+	
+	<title>Company Name</title>
+	<link type="text/css" rel="stylesheet" href="css/main.css" />
+
+</head>
+<body>
+
+<div class="container"> 
+<!-- Because each element is contained within a section, header, or footer there is technically no need for a container. We can simply constrain those elements directly. REMOVE the div -->
+
+	<div class="header"> 
+	<!-- CHANGE this div to the HTML5 <header> tag. Then there is no need for a class, REMOVE the class -->
+	
+		<p>Company Name</p>
+	
+		<div class="navigation"> 
+		<!-- CHANGE this div to the HTML5 <nav> tag. Then there is no need for a class, REMOVE the class -->
+		
+			<ul class="nav"> 
+			<!-- The ul inside of the nav tag can be styled directly. REMOVE the class -->
+
+				<li><a href="#">Link one</a></li>
+				<li><a href="#">Link two</a>
+					<ul>
+						<li><a href="#">sub-link one</a></li>
+						<li><a href="#">sub-link two</a></li>
+						<li><a href="#">sub-link three</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Link three</a></li>
+				<li><a href="#">Link four</a></li>
+			</ul>
+
+		</div> 
+		<!-- REPLACE with </nav> -->
+
+	</div> 
+	<!-- REPLACE with </header> -->
+
+
+	<div class="teaser">
+	<!-- Let's semantically define this as a container of all the teaser content. CHANGE from div to HTML5 <section> tag.  Additionally, since it's the only teaser section CHANGE the class to an id -->
+
+		<div class="copy">
+		<!-- The div is needed to create the visual box, but it is the only one inside of the teaser. As such it can be styled directly without an id or class. REMOVE the class -->
+
+			<h1>Tagline</h1>
+			<p>Lorem ipsum dolor sit amet</p>
+		</div>
+
+	</div>
+	<!-- REPLACE with </section> --> 
+
+
+	<div id="content">
+	<!-- Let's semantically define this as a container of all the features content. CHANGE from div to HTML5 <section> tag. Additionally, since it contains specific content... CHANGE the id from "content" to "features" -->
+
+		<div class="article"> 
+		<!-- As an independant element within a larger group we can CHANGE this div to the HTML5 <article> tag and then there is no need for a class. REMOVE the class -->
+		
+			<h2>Feature</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse justo dolor, malesuada.</p>
+			<p><a href="#">More</a></p>
+
+		</div> 
+		<!-- replace with </article> -->
+		
+		<div class="article"> 
+		<!-- As an independant element within a larger group we can CHANGE this div to the HTML5 <article> tag and then there is no need for a class. REMOVE the class -->
+		
+			<h2>Feature</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse justo dolor, malesuada.</p>
+			<p><a href="#">More</a></p>
+
+		</div>
+		<!-- replace with </article> -->	
+		
+		<div class="article"> 
+		<!-- As an independant element within a larger group we can CHANGE this div to the HTML5 <article> tag and then there is no need for a class. REMOVE the class -->
+		
+			<h2>Feature</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse justo dolor, malesuada.</p>
+			<p><a href="#">More</a></p>
+
+		</div>
+		<!-- replace with </article> -->	
+
+	</div>
+	<!-- REPLACE with </section> --> 
+
+
+	<div class="footer">
+	<!-- CHANGE this div to the HTML5 <footer> tag. Then there is no need for a class, REMOVE the class -->
+	
+		<p>Project Management and Assessment 1 :: WDD :: &copy; Full Sail University</p>
+	
+	</div> 
+	<!-- REPLACE with </footer> --> 
+
+</div>
+<!-- The 'container' div was removed. Make sure to remove the closing tag too. -->
+
+</body>
+</html>

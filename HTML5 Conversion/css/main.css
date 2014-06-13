@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* -- BASIC FORMATTING -------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+html { font-size: 62.5%; }
+body {
+	font: 100 1.4em/1.8em Verdana, Arial, Helvetica, sans-serif;
+	color: #888888;
+	margin: 0;
+	padding: 0;	
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;	 
+	padding: 0;
+	list-style: none;
+}
+h2 { color: #444444; }
+a {
+	color: #42413C;
+	text-decoration: none;
+}
+
+
+/* -- SITE STRUCTURE -------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* The container division was removed completely from the HTML. 
+CHANGE '.container' to 'header, footer, section' */
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/* -- HEADER -------------------------------------------------- */
+/* ------------------------------------------------------------ */
+/* For each of these rules the header class should be changed to target 
+the HTML5 header tag, just remove the period  */
+.header { 
+	display: block;
+	padding: 15px 0 0 0;
+}
+.header p {
+	float: left;
+	background: #eaeaea; 
+	padding: 5px 20px
+}
+
+
+/* -- NAVIGATION -------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* For each of these rules the navigation class should be changed to target 
+the HTML5 nav tag. CHANGE '.navigation' to 'nav'  */
+.navigation { 
+	float: right;
+}
+.navigation li {
+	display: inline-block;
+	position: relative;
+}
+.navigation li:hover { 
+	background: #E88F3F;
+}
+.navigation li:hover a { 
+	color: #ffffff; 
+}
+.navigation ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 10px 0;
+	min-width: 100%;
+	background: #E88F3F;
+	z-index: 1;
+}
+.navigation ul ul li {
+	float: none;
+	white-space: nowrap;
+}
+.navigation li:hover ul {
+	display: block;
+}
+.navigation a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 20px
+}
+
+
+/* -- TEASER -------------------------------------------------- */
+/* ------------------------------------------------------------ */
+/* For each of these rules change the class rule to that of an id. CHANGE '.teaser' to '#teaser' */
+.teaser {
+	clear: both;
+	position: relative;
+	height: 300px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #eaeaea url('../images/tuxedo.jpg') no-repeat center center;
+	background-size: cover;
+	
+}
+
+/* Since the additional class was not neccessary... CHANGE '.copy' to 'div' */
+.teaser .copy {
+	position: absolute; 
+	bottom: 25px; 
+	left: 25px;
+	display: inline-block;
+	padding: 15px;
+	color: #eaeaea;
+	background: #E88F3F;
+}
+.teaser .copy h1 {
+	color: #ffffff;
+}
+
+
+/* -- FEATURES -------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* For each of these rules CHANGE the rule to that of the new id. CHANGE '#content' to '#features' */
+/* Additionally, the class can CHANGE to the HTML5 tag "article", just remove the period. */
+#content {
+	clear: both;
+	padding: 30px 0;
+}
+#content .article { 
+	width: 26%;
+	margin: 1.6665%;
+	padding: 0 2%;
+	float: left;
+	text-align: center;
+}
+#content .article h2 {
+	text-transform: uppercase;
+}
+#content .article p a {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 0 5px;
+	background: #E88F3F;
+	color: #ffffff;
+}
+
+
+/* -- FOOTER -------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* This class can CHANGE to the HTML5 tag "footer", just remove the period. */
+.footer { 
+	clear: both;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-top: solid 1px #eeeeee;
+	text-align: center;
+	font-size: .8em;
+	color: #cccccc;
+}
+
+
+/* -- CLEAR FIX -------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* The 'after' psuedo-class is used to insert content into HTML for pure presentation purposes. 
+In this scenario we are using it to insert nothing, but clear the floating at the end of each section. 
+We must update this to match the changes above. REMOVE the period for the header and since they are both
+sections... CHANGE '.teaser::after, #content::after' to 'section::after' */
+.header::after, .teaser::after, #content::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
