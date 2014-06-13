@@ -147,7 +147,7 @@ nav a {
 /* -- FOOTER -------------------------------------------------- */
 /* ---------------------------------------------------------------- */
 /* This class can CHANGE to the HTML5 tag "footer", just remove the period. */
-/*.footer { 
+	footer { 
 	clear: both;
 	margin-top: 30px;
 	margin-bottom: 30px;
