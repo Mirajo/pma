@@ -164,7 +164,7 @@ nav a {
 In this scenario we are using it to insert nothing, but clear the floating at the end of each section. 
 We must update this to match the changes above. REMOVE the period for the header and since they are both
 sections... CHANGE '.teaser::after, #content::after' to 'section::after' */
-.header::after, .teaser::after, #content::after {
+header::after, section::after, section::after {
 	content: "";
 	display: block;
 	clear: both;
