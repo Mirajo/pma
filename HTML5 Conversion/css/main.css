@@ -115,27 +115,27 @@ nav a {
 #teaser div h1 {
 	color: #ffffff;
 }
-*/
+
 
 /* -- FEATURES -------------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* For each of these rules CHANGE the rule to that of the new id. CHANGE '#content' to '#features' */
 /* Additionally, the class can CHANGE to the HTML5 tag "article", just remove the period. */
-#content {
+#features {
 	clear: both;
 	padding: 30px 0;
 }
-#content .article { 
+#features article { 
 	width: 26%;
 	margin: 1.6665%;
 	padding: 0 2%;
 	float: left;
 	text-align: center;
 }
-#content .article h2 {
+#features article h2 {
 	text-transform: uppercase;
 }
-#content .article p a {
+#features article p a {
 	display: inline-block;
 	margin-top: 10px;
 	padding: 0 5px;
