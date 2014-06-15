@@ -25,7 +25,7 @@ a {
 /* -------------------------------------------------------------------- */
 /* The container division was removed completely from the HTML. 
 CHANGE '.container' to 'header, footer, section' */
-section {
+header, footer,section {
 	width: 960px;
 	margin: 0 auto;
 }
