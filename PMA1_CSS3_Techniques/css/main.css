@@ -94,6 +94,17 @@ body {
 		filter: alpha(opacity=85);
 	}
 }
+@media all and (min-width: 960px) {
+	body {
+		background-color: transparent;
+		background-image: url(images/grassyknoll.png), url(images/sun.png), -webkit-radial-gradient(bottom right, #66CCFF 0%, #2277AA 50%);
+		background-image: url(images/grassyknoll.png), url(images/sun.png), -moz-radial-gradient(bottom right, #66CCFF 0%, #2277AA 50%);
+		background-position: bottom left, bottom right;
+		background-repeat: repeat-x, no-repeat;
+		opacity: 0.85;
+		filter: alpha(opacity=85);
+	}
+}
 
 
 
