@@ -101,8 +101,8 @@ body {
 		background-image: url(images/grassyknoll.png), url(images/sun.png), -moz-radial-gradient(bottom right, #66CCFF 0%, #2277AA 50%);
 		background-position: bottom left, bottom right;
 		background-repeat: repeat-x, no-repeat;
-		opacity: 0.85;
-		filter: alpha(opacity=85);
+		opacity: 0.70;
+		filter: alpha(opacity=70);
 	}
 }
 
