@@ -1,0 +1,131 @@
+<!doctype html>  
+<html>
+
+<!-- HEAD -->	
+<!-- Something appears to be wrong with our file structure. Where is this CSS file? -->
+<head>
+	<meta charset="utf-8" />
+	<title>Company Name</title>
+	<link type="text/css" rel="stylesheet" href="main.css" />
+</head>
+<body>
+		
+	<!-- HEADER -->	
+	<!-- While HTML attributes are case-insensitive the W3C recommends lowercase. -->
+	<header>
+
+		<h1><a href="index.html">Company Name</a></h1>
+		
+		<form ID="search" method="post" action="search.php">
+		<p>
+			<label for="search_query">What are you looking for?</label>
+			<input type="text" name="search_query" id="search_query" placeholder="search..." />				
+			<input type="submit" id="search_submit" value="submit" />
+		</p>
+		</form>
+
+	</header>
+		
+	<!-- NAVIGATION -->
+	<!-- With so many tags ensuring everything is opened and closed properly can get confusing. -->
+	<nav>	
+	<ul>
+		<li><a href="tutorials/index.html">tutorials</a>
+			<ul>
+				<li><a href="tutorials/process.html">Production</a></li>
+				<li><a href="tutorials/design.html">Design</a></li>
+				<li><a href="tutorials/development.html">Development</a></li>
+			</ul>
+		</li>
+		<li><a href="screencasts/index.html">screencasts</a>
+			<ul>
+				<li><a href="screencasts/photoshop.html">Photoshop</a></li>
+				<li><a href="screencasts/html.html">HTML and CSS</a></li>
+				<li><a href="screencasts/javascript.html">JavaScript</a></li>
+				<li><a href="screencasts/php.html">PHP</a></li>
+			</ul>
+		</li>
+		<li><a href="projects.html">projects</a>
+		<li><a href="store.html">store</a></li>
+		<li><a href="contact.html">contact</a></li>
+	</ul>
+	</nav>
+
+	<!-- CALL TO ACTION -->
+	<!-- Don't forget about things outside of the browser. Detailed alternate text is required for all image tags. -->
+	<section id="cta">
+	<div>
+
+		<p><img src="images/tuxedo.jpg" /></p>
+		<article>
+			<h2>Product Title</h2>
+			<p>Mauris aliquet bibendum velit, quis laoreet erat egestas ut. Donec aliquam ut quam quis lobortis. Morbi dapibus viverra egestas.</p>
+			<p><a href="#">view more</a></p>
+		</article>
+
+		<ul>
+			<li><a href="">1</a></li>
+			<li class="current"><a href="">2</a></li>
+			<li><a href="">3</a></li>
+			<li><a href="">4</a></li>
+		</ul>
+	
+	</div>
+	</section>
+	
+	<!-- FEATURES -->
+	<!-- The content is just as important as code. Make sure to double check your spelling.  -->
+	<section id="features">
+	<div>
+
+		<article>
+			<h3>Standard</h3>
+			<h4>$0 <em>Free</em></h4>
+			<ul>
+				<li>community blog</li>
+				<li>tutorials</li>
+				<li>screencasts</li>
+			</ul>
+			<p><a href="">choose plan</a></p>
+		</article>
+
+		<article>
+			<h3>Premium</h3>
+			<h4>$10 <em>Monthly</em></h4>
+			<ul>
+				<li>comunity blog</li>
+				<li>tutorials</li>
+				<li>screencasts</li>
+				<li>projects</li>
+				<li>free templates</li>
+				<li>testing server space</li>
+				<li>automatic backup</li>
+				<li>online support</li>			
+			</ul>
+			<p><a href="">choose plan</a></p>
+		</article>
+
+		<article>
+			<h3>Deluxe</h3>
+			<h4>$5 <em>Monthly</em></h4>
+			<ul>
+				<li>community blog</li>
+				<li>tutorials</li>
+				<li>screencasts</li>
+				<li>projects</li>
+				<li>online support</li>
+			</ul>
+			<p><a href="">choose plan</a></p>
+		</article>		
+
+	</div>
+	</section>
+
+	<!-- FOOTER -->
+	<!-- When displaying non-keyboard characters it is best to utilize HTML entities. -->
+	<footer>
+		<p>Project Management and Assessment 1 :: WDD :: © Full Sail University</p>
+	</footer>
+ 
+</body>
+</html>
