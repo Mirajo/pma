@@ -45,10 +45,9 @@ footer {
 	margin: 0 auto;
 }
 
-header > div::after {
-clear: both;
-}
- 
+header ::after {
+clear: both
+}  
 nav > ul::after, 
 section > div::after, 
 footer::after {
@@ -56,8 +55,6 @@ footer::after {
 	display: inline;
 	clear: both;
 }
-
-
 
 
 /* -- HEADER ---------------------------------------------------------- */
