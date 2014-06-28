@@ -45,8 +45,8 @@ footer {
 	margin: 0 auto;
 }
 
-header ::after {
-clear: both
+header:after {
+clear: both;
 }  
 nav > ul::after, 
 section > div::after, 
