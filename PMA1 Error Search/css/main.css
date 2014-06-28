@@ -99,7 +99,7 @@ nav li {
 	position: relative;
 }
 nav li a {
-	display: inline-block;;
+	display: inline-block;
 	padding: 5px 15px;
 	color: #eaeaea;
 }
@@ -119,7 +119,7 @@ nav li ul {
 	z-index: 1;
 }
 nav li ul li {
-	display: inline-block;;
+	display: inline-block;
 	white-space: nowrap;
 }
 nav li:hover ul {
