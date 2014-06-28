@@ -83,7 +83,7 @@ input {
 input[type='submit'] { 
 	position: absolute; top: 0; right: 1.5%;
 	width: auto; height: 37px; margin-right: 0;
-	background: #cccccc;
+	background: #444444;
 	color: #fafafa;
 }
 
@@ -92,7 +92,8 @@ input[type='submit'] {
 /* -- The main list items appear not to be displaying next to one another.
 	  Apparently block doesn't work -- */
 /* -------------------------------------------------------------------- */
-nav { padding: 0 20px; background: #444444; }
+nav { padding: 0 20px; background: #444444;
+	float: right; }
 nav ul { padding: 0 1.5%; }
 nav li {
 	display: inline-block;
