@@ -100,7 +100,7 @@ nav li {
 	position: relative;
 }
 nav li a {
-	display: inline-block;
+	display: block;
 	padding: 5px 15px;
 	color: #eaeaea;
 }
@@ -120,11 +120,11 @@ nav li ul {
 	z-index: 1;
 }
 nav li ul li {
-	display: inline-block;
+	display: block;
 	white-space: nowrap;
 }
 nav li:hover ul {
-	display: inline-block;
+	display: block;
 }
 
 
@@ -226,7 +226,7 @@ nav li:hover ul {
 footer {
 	padding: 20px;
 	font-size: 1.2rem;
-	text-align: left;
+	text-align: center;
 	color: #cccccc;
 }
 
