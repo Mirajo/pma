@@ -45,7 +45,10 @@ footer {
 	margin: 0 auto;
 }
 
-header > div::after, 
+header > div::after {
+clear: both;
+}
+ 
 nav > ul::after, 
 section > div::after, 
 footer::after {
@@ -151,7 +154,7 @@ nav li:hover ul {
 }
 
 #cta article {
-	position: relative; top: 0; right: 0px; z-index: 1;
+	position: relative; top: 0; right: 0; z-index: 1;
 	display: inline-block; max-width: 33%; margin: 50px; padding: 15px;
 	background: rgba(0, 0, 0, 0.75);
 	color: #cccccc;
