@@ -92,7 +92,7 @@ input[type='submit'] {
 	  Apparently block doesn't work -- */
 /* -------------------------------------------------------------------- */
 nav { padding: 0 20px; background: #444444;
-	float: right; }
+ }
 nav ul { padding: 0 1.5%; }
 nav li {
 	display: inline-block;
